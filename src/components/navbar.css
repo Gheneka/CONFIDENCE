@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #121212;
+  width: 100%;
+  padding: 8px;
+  height: 40px;
+  line-height: 25px;
+
+  margin: auto;
+}
+
+.navbar p{
+    float: right;
+    color: #C9A24D;
+    padding: 0px 450px 100px 0px;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.links  a{
+    font-size: 12px;
+    color: #F5F5F2;
+    padding-left: 13px;
+    text-decoration: none;
+}
+.links a:hover{
+    color: #C9A24D;
+}
+
+.links1{
+    float: right;
+}
+
+
