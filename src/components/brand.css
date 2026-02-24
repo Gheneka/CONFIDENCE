@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sect3{
+    background-color: #F5F5F2;
+    padding: 40px 10px 70px 10px;
+    /* margin-bottom: 50px; */
+}
+
+.sect3 h1{
+    color: #121212;
+    text-align: center;
+}
+
+.sect3 h2{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.cate {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+
+    padding: 10px 5px 10px 20px;
+
+    margin-top: 5px;
+
+}
+
+.eva {
+  display: inline-block;     
+  background-color: #F5F5F2;   
+  width: 90%;
+  align-items: center;
+  text-align: center;
+  padding: 30px 8px;      
+  border-radius: 8px;      
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  opacity: 100%;
+  justify-content: center;
+opacity: 0;
+  transform: translateY(40px) scale(0.95);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  /* margin-top: 80px;
+  margin-right: 500px; */
+}
+
+.eva.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.eva1{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.eva12{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text1{
+    margin-top: 5px;
+}
+
+.text2{
+    margin-top: 5px;
+}

@@ -1,0 +1,2 @@
+DT.onReady(()=>{const header=document.querySelector('.js-header');const headerSearch=document.querySelector('.js-header-search');new IntersectionObserver(async(entries)=>{if(entries.length){const{intersectionRect}=entries[0];if(intersectionRect.y>0&&!DT.UI.is(header,'sticky')){return}}
+await DT.yieldIfInputPending();DT.UI.toggle(header,'sticky')},{threshold:1.0},).observe(headerSearch)})

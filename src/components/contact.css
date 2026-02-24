@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sect5{
+    padding: 10px;
+    background-color: #F5F5F2;
+    height: 130vh;
+}
+
+.sect5 h1{
+  color: #121212;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sect5 h2{
+  color: #121212;
+  font-weight: bolder;
+}
+
+
+.contact {
+  display: flex;              /* puts text & image side by side */
+  align-items: center;        /* vertically align them */
+  justify-content: space-evenly; /* adds space between */
+               
+  padding: 4px 100px 0px 100px;
+  /* margin: 50px; */
+}
+
+.contactfirst {
+  flex: 1;                    /* text takes up available space */
+}
+
+.contactsecond{
+flex: 1;
+}
+
+.phone1, .email1 {
+  display: flex;
+  gap: 0.9rem;             /* small space between image and text */
+  margin-top: 20px;
+}
+
+.phone1 img, .email1 img {
+  width: 40px;   /* increase size a bit so it’s clearer */
+  height: 40px;
+
+  background-color: transparent;
+  border-radius: 360px;
+  padding: 5px;
+}
+
+.phone1 p, .email1 p{
+  margin: 0;
+}
+
+.contact1{
+    color: #121212; 
+    background-color: #F5F5F2; 
+    border-color: #12121263; 
+    border-radius: 8px; 
+    padding: 10px; 
+    width: 210px; 
+    font-size: 20px;
+}
+
+.con{
+   margin-left: 8px;
+}
+
+.contact12{
+    color: #121212; 
+    background-color: #F5F5F2; 
+    border-color: #12121263; 
+    border-radius: 8px; 
+    padding: 10px; 
+    width: 100%; 
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.contact13{
+    color: #121212; 
+    background-color: #F5F5F2; 
+    border-color: #12121263; 
+    border-radius: 8px; 
+    padding: 10px; 
+    padding-bottom: 80px; 
+    width: 100%; 
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.sned{
+    color: #F5F5F2; 
+    background-color: #121212; 
+    border-color: transparent; 
+    border-radius: 8px; 
+    padding: 10px;
+    width: 100%; 
+    font-size: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+    }
+.sned:hover{
+  background-color: #F5F5F2;
+  color: #121212;
+  border-color: #121212;
+
+}

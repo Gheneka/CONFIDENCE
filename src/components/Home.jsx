@@ -8,10 +8,10 @@ import Subtract2 from '../assets/Subtract 2.png'
 
 const Home = () => {
   return (
-    <div className='sect1'>
+    <div className='sect1' id='home'>
       <p className='p1'>A SELF-CARE THAT BUILDS <mark className='aura'>CONFIDENCE</mark></p>
       <p className='p2'>AN <mark className='aura'>AURA</mark> THAT SPEAKS</p>
-      <a href='/' className='shopnow'>SHOP NOW</a>
+      <a href='#categories' className='shopnow'>SHOP NOW</a>
       <img className='subtract1' src={Subtract1}/>
       <img className='subtract2' src={Subtract2}/>
       <div className='heroimage'>

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.story{
+    background-color: #121212;
+    padding: 50px 100px 50px 100px;
+}
+
+.mystory{
+    display: flex;
+    position: relative;
+    z-index: 999;
+}
+
+.storyt{
+    color: #F5F5F2;
+    padding: 100px 100px 100px 0px;
+}
+
+/* hidden state */
+.storyt,
+.storypic {
+  opacity: 0;
+  transition: all 0.7s ease-out;
+}
+
+/* start positions */
+.storyt {
+  transform: translateX(-60px);
+}
+
+.storypic {
+  transform: translateX(60px);
+}
+
+/* when visible */
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+.storypic{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.circle11{
+    position: absolute;
+    width: 300px;
+    left: 750px;
+    top: 1150px;
+    opacity: 20%;
+}
+.circle12{
+    position: absolute;
+    width: 300px;
+    left: 30px;
+    top: 960px;
+    opacity: 20%;
+}
+

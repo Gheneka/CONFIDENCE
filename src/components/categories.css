@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sect2{
+    background-color: #F5F5F2;
+    padding: 40px 10px 40px 10px;
+}
+
+.sect2 h1{
+    color: #121212;
+    text-align: center;
+}
+
+.sect2 h2{
+    margin-top: 20px;
+    text-align: center;
+    font-weight:normal;
+}
+
+.cate {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+
+    padding: 10px 10px 10px 10px;
+
+    margin-top: 5px;
+
+}
+
+.eva {
+  display: inline-block;     
+  background-color: #F5F5F2;   
+  width: 90%;
+  align-items: center;
+  text-align: center;
+  padding: 30px 5px 30px 30px;      
+  border-radius: 8px;      
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  justify-content: center;
+    opacity: 0;
+  transform: translateY(40px) scale(0.95);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  /* margin-top: 80px;
+  margin-right: 500px; */
+}
+
+.eva.show {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+
+
+
+.eva1{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.eva11{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    /* padding-left: 40px; */
+}
+
+.text1{
+    margin-top: 5px;
+}
+
+.text2{
+    margin-top: 5px;
+}
+
+.counter{
+    margin-top: 5px;
+}
+
+.count{
+    color: #F5F5F2;
+    background-color: #121212;
+    padding: 2px 7px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.btn11{
+    margin-top: 10px ;
+}
+
+.btn1{
+    color: #F5F5F2;
+    background-color: #121212;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    border-color: 2px solid #121212;
+}
+
+.shopbtn{
+    margin-top: 20px;
+}
+
+.shopcate{
+    background-color: #121212 ;
+    color: #F5F5F2;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.shopcate:hover{
+    background:transparent ;
+    color: #121212;
+    padding: 6px 14px;
+    border-radius: 10px;
+    border: 2px solid #121212;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: scale(1.1);
+}

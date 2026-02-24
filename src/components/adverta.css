@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ad {
+  background-image: url('../assets/ordinaryad.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #F5F5F2;
+  width: 100%;
+    height: 100vh;
+    border-color: 2px solid #121212;
+    animation-name: myanimate;
+    animation-duration: 19s;
+    animation-delay: 19s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes myanimate{
+    0%{background-image: url('../assets/ordinaryad.png')}
+    50%{background-image: url('../assets/niveaad.png')}
+    100%{background-image: url('../assets/ceravead.png')}
+}
