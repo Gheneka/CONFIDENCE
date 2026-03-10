@@ -8,7 +8,7 @@ import Subtract2 from '../assets/Subtract 2.png'
 
 const Home = () => {
   return (
-    <div className='sect1' id='home'>
+    <div className='sect1'>
       <p className='p1'>A SELF-CARE THAT BUILDS <mark className='aura'>CONFIDENCE</mark></p>
       <p className='p2'>AN <mark className='aura'>AURA</mark> THAT SPEAKS</p>
       <a href='#categories' className='shopnow'>SHOP NOW</a>
